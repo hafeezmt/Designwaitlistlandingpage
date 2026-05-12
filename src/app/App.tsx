@@ -55,19 +55,12 @@ export default function App() {
             </div>
 
             <div className="text-center">
-              <p className="text-2xl md:text-3xl font-semibold mb-3">Coming Soon!</p>
-              <p className="text-lg md:text-xl">We are putting the final touches on the platform. Secure your spot in line today and join our exclusive testing group.</p>
+              <p className="text-2xl md:text-3xl font-semibold mb-3">Be first to get access to verified locations</p>
+              <p className="text-lg md:text-xl">Abuja · Kaduna · Minna</p>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="px-6 py-10 md:px-12 lg:px-20 border-t border-gray-200 bg-gray-50">
-        <div className="max-w-7xl mx-auto text-center text-gray-600">
-          <p>&copy; 2026 PropaBridge. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 }
