@@ -1,4 +1,3 @@
-import { Check } from 'lucide-react';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
 export default function App() {
@@ -22,42 +21,23 @@ export default function App() {
       </header>
 
       {/* Hero Section */}
-      <section className="px-6 py-16 md:py-20 md:px-12 lg:px-20 bg-gradient-to-br from-[#1B4FCC] to-[#0D3BA8]">
+      <section className="px-6 py-20 md:py-32 md:px-12 lg:px-20 bg-gradient-to-br from-[#1B4FCC] to-[#0D3BA8]">
         <div className="max-w-7xl mx-auto">
-          <div className="text-white max-w-5xl mx-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl mb-8 leading-tight text-center">
-              Be among the <span className="font-bold">FIRST to TEST</span> our platform before it goes live to the public.
+          <div className="text-white max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl mb-8 leading-tight font-bold">
+              Be first to get access to verified locations
             </h1>
 
-            <p className="text-lg md:text-xl text-white text-opacity-95 mb-8 text-center">
-              As an early access member, you will be the first to experience:
+            <p className="text-2xl md:text-3xl font-semibold mb-12 text-white text-opacity-90">
+              Abuja · Kaduna · Minna
             </p>
 
-            <div className="space-y-6 mb-10">
-              <div className="flex items-start gap-4">
-                <Check className="w-7 h-7 text-white mt-1 flex-shrink-0" />
-                <div>
-                  <p className="text-lg md:text-xl"><strong>Instant Property Matching:</strong> Chat directly with Propa AI, our intelligent WhatsApp concierge, to find properties that fit your exact needs.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <Check className="w-7 h-7 text-white mt-1 flex-shrink-0" />
-                <div>
-                  <p className="text-lg md:text-xl"><strong>Verified Listings Only:</strong> Discover active and upcoming projects from credible developers with zero upfront costs.</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <Check className="w-7 h-7 text-white mt-1 flex-shrink-0" />
-                <div>
-                  <p className="text-lg md:text-xl"><strong>A Seamless Experience:</strong> A digital real estate ecosystem designed to eliminate stress, friction, and uncertainty from property transactions.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="text-center">
-              <p className="text-2xl md:text-3xl font-semibold mb-3">Be first to get access to verified locations</p>
-              <p className="text-lg md:text-xl">Abuja · Kaduna · Minna</p>
-            </div>
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="bg-white text-[#1B4FCC] px-8 py-4 md:px-12 md:py-4 rounded-lg hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl text-base md:text-lg font-semibold"
+            >
+              Join Our Waitlist
+            </button>
           </div>
         </div>
       </section>
